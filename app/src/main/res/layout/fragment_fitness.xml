@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:gravity="center"
+<RelativeLayout android:gravity="center"
     android:id="@+id/home"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:gravity="center"
-        android:textSize="24sp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Fitness" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

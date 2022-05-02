@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_bmi.xml" value="0.17074275362318841" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_bmicalc.xml" value="0.17074275362318841" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_splash.xml" value="0.11639492753623189" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_fitness.xml" value="0.1" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_profile.xml" value="0.17074275362318841" />
+        <entry key="..\:/BeastFitness/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
