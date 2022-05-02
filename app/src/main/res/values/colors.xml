@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="icontint">#C8FFFFFF</color>
     <color name="indicatorcolor">#2DFFFFFF</color>
+    <color name="warn">#FF1313</color>
+    <color name="halfwarn">#483FC8</color>
+    <color name="trans">#00000000</color>
 </resources>
