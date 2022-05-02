@@ -30,6 +30,8 @@ public class BmicalcActivity extends AppCompatActivity {
     String typerofuser="0";
     String weight2="55";
     String age2="22";
+    private static final int TIME_INTERVAL = 2000;
+    private long backPressed;
 
     @SuppressLint("ResourceAsColor")
     @Override
@@ -169,5 +171,10 @@ public class BmicalcActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(BmicalcActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 }

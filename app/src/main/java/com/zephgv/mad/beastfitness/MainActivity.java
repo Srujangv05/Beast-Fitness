@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
 import me.ibrahimsn.lib.SmoothBottomBar;
@@ -12,7 +13,8 @@ import me.ibrahimsn.lib.SmoothBottomBar;
 public class MainActivity extends AppCompatActivity {
 
     private SmoothBottomBar bottomBar;
-
+    private static final int TIME_INTERVAL = 2000;
+    private long backPressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,4 +53,19 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.frame,fragment);
         transaction.commit();
     }
+
+    //Double click to Exit Start
+    @Override
+    public void onBackPressed(){
+        if(backPressed + TIME_INTERVAL > System.currentTimeMillis()) {
+            super.onBackPressed();
+            finish();
+            return;
+        }
+        else{
+            Toast.makeText(getBaseContext(),"Press Back Again To Exit",Toast.LENGTH_SHORT).show();
+        }
+        backPressed = System.currentTimeMillis();
+    }
+    //Double click to Exit End
 }
