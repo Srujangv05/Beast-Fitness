@@ -27,6 +27,7 @@ public class BmiActivity extends AppCompatActivity {
     String weight;
     float intheight,intweight;
     RelativeLayout mbackground;
+    private long backPressed;
 
     @SuppressLint("ResourceAsColor")
     @Override
