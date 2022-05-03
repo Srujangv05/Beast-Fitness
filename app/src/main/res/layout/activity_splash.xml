@@ -4,7 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    android:orientation="vertical"
+    tools:context=".SplashActivity"
+    android:padding="70dp">
+
+    <ImageView
+        android:id="@+id/splashlogoimage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/splashlogo1" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/splashlogoimage"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash4" />
 
 
 </RelativeLayout>

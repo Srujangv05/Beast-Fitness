@@ -23,6 +23,7 @@ import java.util.List;
  */
 public class FitnessFragment extends Fragment {
 
+    ImageSlider imageSlider;
     Button button;
 
     // TODO: Rename parameter arguments, choose names that match
