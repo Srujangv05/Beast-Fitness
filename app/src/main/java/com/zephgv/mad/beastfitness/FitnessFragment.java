@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.denzcoskun.imageslider.ImageSlider;
-import com.denzcoskun.imageslider.models.SlideModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +21,6 @@ import java.util.List;
  */
 public class FitnessFragment extends Fragment {
 
-    ImageSlider imageSlider;
     Button button;
 
     // TODO: Rename parameter arguments, choose names that match
