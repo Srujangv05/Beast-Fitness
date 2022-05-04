@@ -7,13 +7,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <VideoView
-        android:layout_width="500dp"
-        android:layout_height="500dp"
-        android:id="@+id/videoviewer"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentTop="true"
-        />
-
 
 </RelativeLayout>
