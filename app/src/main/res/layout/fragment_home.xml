@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     android:gravity="center"
     android:id="@+id/home"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -7,18 +7,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:gravity="center"
-        android:textSize="24sp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home" />
+    <VideoView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:id="@+id/videoviewer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        />
 
-    <TextView
-        android:gravity="top|center"
-        android:textSize="24sp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hI GUYS " />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
