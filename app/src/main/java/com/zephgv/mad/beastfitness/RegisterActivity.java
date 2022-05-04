@@ -4,26 +4,26 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.TextView;
 
-public class SplashActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
+
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
+        setContentView(R.layout.activity_register);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //getSupportActionBar().hide();
 
-        new Handler().postDelayed(new Runnable() {
+        textView = findViewById(R.id.haveAccount);
+        textView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Intent intent=new Intent(SplashActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+            public void onClick(View view) {
+                startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
             }
-        },3000);
+        });
     }
 }
