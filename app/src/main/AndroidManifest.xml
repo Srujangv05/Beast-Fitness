@@ -13,12 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeastFitness">
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
             android:name=".BmicalcActivity"
             android:exported="false" />
         <activity
@@ -35,19 +29,15 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
 
-        <service
-            android:name=".PushNotificationService"
-            android:exported="false">
+        <service android:name=".PushNotificationService" android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSENGING_EVENT" />
+                <action android:name="com.google.firebase.MESSENGING_EVENT">
+                </action>
             </intent-filter>
         </service>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

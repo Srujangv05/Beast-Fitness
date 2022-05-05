@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
@@ -21,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //Hides ActionBar
+        getSupportActionBar().hide();
         //HomeFragment as default
         replace(new HomeFragment());
         //BottomNavBar selection
