@@ -11,8 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SignIn"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

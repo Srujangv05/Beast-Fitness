@@ -13,7 +13,6 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 public class PushNotificationService extends FirebaseMessagingService {
-
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onMessageReceived(@NonNull RemoteMessage remotemessage) {
@@ -34,5 +33,4 @@ public class PushNotificationService extends FirebaseMessagingService {
         NotificationManagerCompat.from(this).notify(1,notification.build());
         super.onMessageReceived(remotemessage);
     }
-
 }
