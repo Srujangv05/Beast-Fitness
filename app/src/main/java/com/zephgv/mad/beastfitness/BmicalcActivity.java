@@ -39,7 +39,6 @@ public class BmicalcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmicalc);
 
-        getSupportActionBar().hide();
         mcurrentage=findViewById(R.id.currentage);
         mcurrentweight=findViewById(R.id.currentweight);
         mcurrentheight=findViewById(R.id.currentheight);

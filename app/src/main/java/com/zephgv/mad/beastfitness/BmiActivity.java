@@ -35,15 +35,6 @@ public class BmiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
 
-        getSupportActionBar().setElevation(0);
-        ColorDrawable colorDrawable=new ColorDrawable(Color.parseColor("#1E1D1D"));
-        getSupportActionBar().setBackgroundDrawable(colorDrawable);
-
-
-
-        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"white\"></font>"));
-        getSupportActionBar().setTitle("Result");
-
 
         intent=getIntent();
         mbmidisplay=findViewById(R.id.bmidisplay);

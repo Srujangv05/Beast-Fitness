@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/home"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,12 +9,70 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <Button
-        android:id="@+id/button1"
+    <TextView
+        android:id="@+id/tryouttextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="bottom|center"
-        android:text="Button"
-        android:textColor="@color/white" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Try Out:-"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</ScrollView>
+    <ImageView
+        android:id="@+id/bmibtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bmi_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dietbtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/diet_icon"
+        app:layout_constraintStart_toEndOf="@+id/bmibtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/musicbtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/music_icon"
+        app:layout_constraintStart_toEndOf="@+id/dietbtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wellbtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/wellness_icon"
+        app:layout_constraintStart_toEndOf="@+id/musicbtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tipsbtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/tips_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wellbtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

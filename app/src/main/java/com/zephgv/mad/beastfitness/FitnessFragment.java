@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 
 import java.util.ArrayList;
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class FitnessFragment extends Fragment {
 
-    Button button;
+    ImageView img;
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -49,8 +50,8 @@ public class FitnessFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fitness, container, false);
 
-        button = view.findViewById(R.id.button1);
-        button.setOnClickListener(new View.OnClickListener() {
+        img = view.findViewById(R.id.bmibtn1);
+        img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(),BmicalcActivity.class);

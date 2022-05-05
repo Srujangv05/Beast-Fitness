@@ -23,56 +23,52 @@
 
 
     <RelativeLayout
+        android:id="@+id/contentlayout"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:id="@+id/contentlayout"
+        android:layout_centerInParent="true"
         android:background="@drawable/cardbackgroung"
-        android:layout_centerInParent="true">
+        android:padding="20dp">
 
         <TextView
+            android:id="@+id/bmidisplay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="50sp"
-            android:textStyle="bold"
             android:layout_centerHorizontal="true"
             android:background="@color/trans"
+            android:text="22"
             android:textColor="@color/white"
-            android:id="@+id/bmidisplay"
-            android:text="22">
+            android:textSize="50sp"
+            android:textStyle="bold">
 
         </TextView>
 
         <TextView
+            android:id="@+id/genderdisplay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gender"
-            android:layout_marginTop="15dp"
-            android:textSize="17sp"
-            android:textStyle="bold"
             android:layout_below="@id/bmidisplay"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Gender"
             android:textColor="@color/white"
-            android:id="@+id/genderdisplay" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/bmicategorydispaly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your BMI Category Is"
-            android:textStyle="bold"
-            android:id="@+id/bmicategorydispaly"
-            android:textColor="@color/white"
-            android:fontFamily="@font/raleway"
-            android:layout_marginTop="15dp"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/genderdisplay"
-            android:textSize="25sp">
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/raleway"
+            android:text="Your BMI Category Is"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
 
         </TextView>
-
-
-
-
 
 
     </RelativeLayout>
