@@ -118,7 +118,7 @@
                 tools:ignore="MissingConstraints" />
 
             <android.widget.Button
-                android:id="@+id/btnlogin"
+                android:id="@+id/btnLogin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="90dp"
@@ -139,9 +139,9 @@
                 android:text="Create New Account?"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/btnlogin"
-                app:layout_constraintStart_toStartOf="@+id/btnlogin"
-                app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+                app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+                app:layout_constraintStart_toStartOf="@+id/btnLogin"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
     <TextView
         android:id="@+id/orbtn"
