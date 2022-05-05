@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeastFitness">
         <activity
+            android:name=".GoogleSignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
