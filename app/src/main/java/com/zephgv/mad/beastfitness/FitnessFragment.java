@@ -18,6 +18,11 @@ import java.util.List;
 public class FitnessFragment extends Fragment {
 
     ImageView img;
+    ImageView img2;
+    ImageView img3;
+    ImageView img4;
+    ImageView img5;
+
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -51,10 +56,47 @@ public class FitnessFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_fitness, container, false);
 
         img = view.findViewById(R.id.bmibtn1);
+        img2 = view.findViewById(R.id.dietbtn1);
+        img3 = view.findViewById(R.id.musicbtn1);
+        img4 = view.findViewById(R.id.wellbtn1);
+        img5 = view.findViewById(R.id.tipsbtn1);
+
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(),BmicalcActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),DietActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),MusicActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        img4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),WellnessActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        img5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),TipsActivity.class);
                 startActivity(intent);
             }
         });
