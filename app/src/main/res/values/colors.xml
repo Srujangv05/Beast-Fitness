@@ -12,4 +12,5 @@
     <color name="warn">#FF1313</color>
     <color name="halfwarn">#483FC8</color>
     <color name="trans">#00000000</color>
+    <color name="orange">#F03612</color>
 </resources>
