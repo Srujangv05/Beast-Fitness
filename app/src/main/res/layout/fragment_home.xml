@@ -6,6 +6,7 @@
     android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/homebg"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -23,7 +24,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white">
+            android:background="@color/black">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -43,7 +44,7 @@
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/aclonica"
                 android:text="YOGA"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +61,7 @@
         android:id="@+id/cardView2"
         android:layout_width="350dp"
         android:layout_height="100dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="260dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,14 +156,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="346dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="344dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splashlogo1" />
+        app:srcCompat="@drawable/bullhead" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
