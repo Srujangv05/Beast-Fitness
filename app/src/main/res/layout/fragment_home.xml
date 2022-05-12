@@ -11,11 +11,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         app:cardCornerRadius="20dp"
-        app:cardElevation="50dp"
+        app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
@@ -23,13 +23,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/categories_restaurant_background">
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="212dp"
+                android:layout_marginStart="252dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -40,11 +40,11 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:fontFamily="@font/aclonica"
                 android:text="YOGA"
-                android:textColor="@color/white"
-                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -58,11 +58,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="250dp"
         app:cardCornerRadius="20dp"
-        app:cardElevation="50dp"
+        app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -70,13 +70,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/categories_hospitals_background">
+            android:background="@color/black">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="204dp"
+                android:layout_marginStart="252dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -87,11 +87,11 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:fontFamily="@font/aclonica"
                 android:text="GYM WORKOUT"
                 android:textColor="@color/white"
-                android:textSize="22sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
@@ -105,12 +105,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:clickable="true"
         app:cardCornerRadius="20dp"
-        app:cardElevation="50dp"
+        app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
@@ -118,13 +118,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/categories_hospitals_background">
+            android:background="@color/black">
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="204dp"
+                android:layout_marginStart="252dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -135,12 +135,12 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:fontFamily="@font/aclonica"
                 android:text="Calisthenics"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
-                android:textSize="22sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView3"
@@ -152,6 +152,17 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="346dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splashlogo1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
