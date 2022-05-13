@@ -1,6 +1,7 @@
 package com.zephgv.mad.beastfitness;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 import java.util.ArrayList;
@@ -80,8 +82,8 @@ public class FitnessFragment extends Fragment {
         img3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),MusicActivity.class);
-                startActivity(intent);
+                Toast.makeText(getActivity(), "Redirecting to Spotify!", Toast.LENGTH_SHORT).show();
+                gotoUri("https://open.spotify.com/playlist/1Pw57C5UiYrDSxa21UBWWY");
             }
         });
 
@@ -102,5 +104,10 @@ public class FitnessFragment extends Fragment {
         });
 
         return view;
+    }
+
+    private void gotoUri(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 }
