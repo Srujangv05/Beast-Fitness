@@ -40,7 +40,7 @@ public class GoogleSignInActivity extends LoginActivity {
         progressDialog.show();
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken("123783789039-6hsd110g48g54o35degg4gsgk45f9c4r.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
 
