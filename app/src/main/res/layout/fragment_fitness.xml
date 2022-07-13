@@ -60,55 +60,118 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/bmibtn1"
+        android:id="@+id/musicbtn1"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/bmi_icon"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/music_icon"
+        app:layout_constraintStart_toEndOf="@+id/dietbtn1"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/aclonica"
+        android:text="TIPS"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipsbtn1" />
 
     <ImageView
         android:id="@+id/dietbtn1"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp"
         android:background="@drawable/diet_icon"
         app:layout_constraintStart_toEndOf="@+id/bmibtn1"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/musicbtn1"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/music_icon"
-        app:layout_constraintStart_toEndOf="@+id/dietbtn1"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="DIET"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/dietbtn1" />
 
     <ImageView
-        android:id="@+id/wellbtn1"
+        android:id="@+id/bmibtn1"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/wellness_icon"
-        app:layout_constraintStart_toEndOf="@+id/musicbtn1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/bmi_icon"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="MUSIC"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/musicbtn1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/aclonica"
+        android:text="BMI"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmibtn1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/aclonica"
+        android:text="QUOTES"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/wellbtn1" />
 
     <ImageView
         android:id="@+id/tipsbtn1"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="320dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/tips_icon"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/wellbtn1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wellbtn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/wellness_icon"
+        app:layout_constraintStart_toEndOf="@+id/musicbtn1"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
