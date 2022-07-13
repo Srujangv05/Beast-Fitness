@@ -30,4 +30,17 @@
     <string name="quote10">“A champion is someone who gets up when they can’t.”</string>
     <string name="quote11">¨Get comfortable with being uncomfortable!¨</string>
     <string name="quote12">“No pain, no gain.”</string>
+    <string name="pushup">“No pain, no gain.”</string>
+    <string name="pullup">“No pain, no gain.”</string>
+    <string name="squats">“No pain, no gain.”</string>
+    <string name="tplank">“No pain, no gain.”</string>
+    <string name="deadbug">“No pain, no gain.”</string>
+    <string name="skipping">“No pain, no gain.”</string>
+    <string name="heavysquats">“No pain, no gain.”</string>
+    <string name="splitjump">“No pain, no gain.”</string>
+    <string name="virkshasana">“No pain, no gain.”</string>
+    <string name="cobrasana">“No pain, no gain.”</string>
+    <string name="pranayama">“No pain, no gain.”</string>
+    <string name="yogasana">“No pain, no gain.”</string>
+    <string name="utkatasana">“No pain, no gain.”</string>
 </resources>
