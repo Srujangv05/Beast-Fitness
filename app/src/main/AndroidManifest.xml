@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeastFitness">
         <activity
+            android:name=".CalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".WellnessActivity"
             android:exported="false" />
         <activity

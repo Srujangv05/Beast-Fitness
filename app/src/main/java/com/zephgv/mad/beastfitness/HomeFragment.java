@@ -18,7 +18,7 @@ public class HomeFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    CardView cd1;
+    CardView cd1,cd2,cd3;
 
     private String mParam1;
     private String mParam2;
@@ -50,10 +50,26 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         cd1 = view.findViewById(R.id.cardView);
+        cd2 = view.findViewById(R.id.cardView2);
+        cd3 = view.findViewById(R.id.cardView3);
         cd1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),BmicalcActivity.class);
+                Intent intent = new Intent(getActivity(),YogaActivity.class);
+                startActivity(intent);
+            }
+        });
+        cd2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),WorkoutActivity.class);
+                startActivity(intent);
+            }
+        });
+        cd3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(),CalActivity.class);
                 startActivity(intent);
             }
         });
