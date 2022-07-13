@@ -164,26 +164,13 @@
                 android:id="@+id/btnGoogle"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="101dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view1"
-                app:srcCompat="@drawable/google_logo"
-                tools:ignore="MissingConstraints" />
-
-            <ImageView
-                android:id="@+id/btnFacebook"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="101dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view"
-                app:srcCompat="@drawable/facebook_logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view1"
+                app:srcCompat="@drawable/google_logo"
                 tools:ignore="MissingConstraints" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
