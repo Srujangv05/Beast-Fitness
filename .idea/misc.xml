@@ -8,6 +8,7 @@
         <entry key="..\:/BeastFitness/app/src/main/res/drawable/input_bg.xml" value="0.1935" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_bmi.xml" value="0.17074275362318841" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_bmicalc.xml" value="0.17074275362318841" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_cal.xml" value="0.20416666666666666" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_diet.xml" value="0.17074275362318841" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_google_sign_in.xml" value="0.20416666666666666" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_login.xml" value="0.1" />
@@ -17,9 +18,9 @@
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_tips.xml" value="0.17074275362318841" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/activity_wellness.xml" value="0.17074275362318841" />
-        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_fitness.xml" value="0.25" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_fitness.xml" value="0.20416666666666666" />
         <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/BeastFitness/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/BeastFitness/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
         <entry key="..\:/BeastFitness/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1515" />
         <entry key="..\:/BeastFitness/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />

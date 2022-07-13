@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@+id/home"
+<ScrollView android:id="@+id/home"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,7 +33,7 @@
             android:layout_toRightOf="@+id/profile_image"
             android:fontFamily="@font/aclonica"
             android:includeFontPadding="false"
-            android:text="Login to Show"
+            android:text="Beast Fitness"
             android:textColor="#000"
             android:textSize="20sp" />
 
@@ -41,7 +45,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/profile_image"
             android:includeFontPadding="false"
-            android:text="Login To Show"
+            android:text="Member"
             android:textSize="14sp" />
 
     </RelativeLayout>
@@ -71,24 +75,24 @@
                     android:layout_width="30dp"
                     android:src="@drawable/ic_baseline_monitor_weight_24" />
 
-                <TextView
-                    android:fontFamily="@font/raleway"
+                <EditText
                     android:id="@+id/weight_label"
-                    android:includeFontPadding="false"
-                    android:layout_centerInParent="true"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="60kg"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/raleway"
+                    android:includeFontPadding="false"
+                    android:text="60"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/weight_desc"
-                    android:includeFontPadding="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_below="@id/weight_label"
                     android:layout_centerHorizontal="true"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Weight"
+                    android:includeFontPadding="false"
+                    android:text="Weight(kg)"
                     android:textSize="20sp" />
 
             </RelativeLayout>
@@ -114,24 +118,24 @@
                     android:layout_width="30dp"
                     android:src="@drawable/ic_baseline_height_24" />
 
-                <TextView
-                    android:fontFamily="@font/raleway"
+                <EditText
                     android:id="@+id/height_label"
-                    android:includeFontPadding="false"
-                    android:layout_centerInParent="true"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="60kg"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/raleway"
+                    android:includeFontPadding="false"
+                    android:text="172"
                     android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/height_desc"
-                    android:includeFontPadding="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_below="@id/height_label"
                     android:layout_centerHorizontal="true"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="Weight"
+                    android:includeFontPadding="false"
+                    android:text="Height(cm)"
                     android:textSize="20sp" />
 
             </RelativeLayout>
@@ -202,7 +206,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/raleway"
+        android:id="@+id/updatebutton"
         android:layout_gravity="center_horizontal"
         android:text="UPDATE" />
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
