@@ -16,7 +16,7 @@ public class TipsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tips);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        webView = findViewById(R.id.webview1);
+        webView = findViewById(R.id.webview2);
         webView.loadUrl("https://www.self.com/story/popular-at-home-workout-programs");
 
     }
