@@ -85,7 +85,7 @@
 
                     <TextView
                         android:layout_width="200dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/raleway"
@@ -142,7 +142,7 @@
 
                     <TextView
                         android:layout_width="200dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/raleway"
@@ -199,7 +199,7 @@
 
                     <TextView
                         android:layout_width="200dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/raleway"
@@ -256,7 +256,7 @@
 
                     <TextView
                         android:layout_width="200dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/raleway"
@@ -313,11 +313,11 @@
 
                     <TextView
                         android:layout_width="200dp"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/raleway"
-                        android:text="@string/utkatasana"
+                        android:text="@string/utkatasana1"
                         android:textSize="13sp"
                         android:textStyle="bold"
                         android:textColor="#000"
