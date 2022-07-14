@@ -10,11 +10,6 @@ Beast Fitness is developed using Java and Firebase for backend. Consists of vari
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
 ### Installing
 
 * You can install the app from releases
@@ -47,4 +42,8 @@ Srujan G V aka [@ZephNotFound](https://github.com/ZephNotFound)
 ## License
 
 This project is Open Source and anyone can use it.
-Be sure to star this repo and if any issues/bugs/errors do open issues.
+Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
+
+## Images
+
+Images will be added soon
