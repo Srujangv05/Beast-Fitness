@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 public class YogaActivity extends AppCompatActivity {
@@ -17,6 +18,7 @@ public class YogaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yoga);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         cd1 = findViewById(R.id.virkshasana);
         cd2 = findViewById(R.id.cobrasana);
         cd3 = findViewById(R.id.pranayama);

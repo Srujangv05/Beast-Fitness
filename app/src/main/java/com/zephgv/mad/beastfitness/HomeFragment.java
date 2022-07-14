@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 public class HomeFragment extends Fragment {
@@ -19,6 +20,7 @@ public class HomeFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     CardView cd1,cd2,cd3;
+    TextView tvm;
 
     private String mParam1;
     private String mParam2;
@@ -51,7 +53,9 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         cd1 = view.findViewById(R.id.cardView);
         cd2 = view.findViewById(R.id.cardView2);
-        cd3 = view.findViewById(R.id.cardView3);
+        //cd3 = view.findViewById(R.id.cardView3);
+        tvm = view.findViewById(R.id.tvmarq);
+        tvm.setSelected(true);
         cd1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,13 +70,13 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
-        cd3.setOnClickListener(new View.OnClickListener() {
+        /*cd3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(),CalActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
         return view;
     }
 
