@@ -21,7 +21,7 @@ public class DietActivity extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         webView = findViewById(R.id.webview1);
-        webView.loadUrl("https://www.bodybuilding.com/recipes");
+        webView.loadUrl("https://www.muscleandstrength.com/recipes");
 
     }
 }
