@@ -45,6 +45,7 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/virkshasana"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
@@ -101,6 +102,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cobrasana"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
@@ -157,6 +159,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/pranayama"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
@@ -213,6 +216,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/yogasana"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
@@ -269,6 +273,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/utkatasana"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
