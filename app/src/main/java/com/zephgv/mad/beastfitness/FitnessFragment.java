@@ -98,8 +98,8 @@ public class FitnessFragment extends Fragment {
         img5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Opening Guides!", Toast.LENGTH_SHORT).show();
-                gotoUri("https://www.self.com/story/popular-at-home-workout-programs");
+                Intent intent = new Intent(getActivity(),TipsActivity.class);
+                startActivity(intent);
             }
         });
 

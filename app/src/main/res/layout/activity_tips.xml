@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".TipsActivity">
 
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview2"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
