@@ -47,4 +47,4 @@ Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
 ## Images
 
 Images will be added soon
-![Screenshot](https://github.com/ZephNotFound/Beast-Fitness/screenshots/s1.jpg?raw=true)
+![Screenshot](screenshots/s1.jpg)
