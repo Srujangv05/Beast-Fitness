@@ -45,7 +45,7 @@ This project is Open Source and anyone can use it.
 Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
 
 ## Images
-<img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s1.jpg" height="400" width="200">
+<img src="https://github.com/ZephNotFound/Beast-Fitness/tree/master/screenshots/s1.jpg" height="400" width="200">
 <img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s2.jpg" height="400" width="200">
 <img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s3.jpg" height="400" width="200">
 <img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s4.jpg" height="400" width="200">
