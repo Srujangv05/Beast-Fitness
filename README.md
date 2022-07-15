@@ -47,7 +47,7 @@ Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
 ## Images
 
 Images will be added soon
-![Screenshot](screenshots/s1.jpg =1080×720)
+![Screenshot](screenshots/s1.jpg | width=100)
 ![Screenshot](screenshots/s2.jpg =1080×720)
 ![Screenshot](screenshots/s3.jpg =1080×720)
 ![Screenshot](screenshots/s4.jpg =1080×720)
