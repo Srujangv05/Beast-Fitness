@@ -47,3 +47,4 @@ Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
 ## Images
 
 Images will be added soon
+https://github.com/github/Beast-Fitness/screenshots/s1.png 
