@@ -11,7 +11,7 @@ Beast Fitness is developed using Java and Firebase for backend. Consists of vari
 <img src="screenshots/s1.jpg" height="400" width="200"> <img src="screenshots/s2.jpg" height="400" width="200"> <img src="screenshots/s3.jpg" height="400" width="200"> <img src="screenshots/s4.jpg" height="400" width="200">
 
 
-<img src="screenshots/splash.gif" width="280"/> <img src="screenshots/workout.gif" width="280"/> <img src="screenshots/register.gif" width="280"/>
+<img src="screenshots/splash.gif" width="250"/> <img src="screenshots/workout.gif" width="250"/> <img src="screenshots/register.gif" width="250"/>
 
 
 
