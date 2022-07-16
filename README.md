@@ -7,6 +7,9 @@ Mini Project for 6th Sem.
 
 Beast Fitness is developed using Java and Firebase for backend. Consists of various features like BMI calculator,Quotes,Music redirection to spotify,Diet and Tips Webview,Register and Login Page with Google signin option.
 
+## Images
+<img src="screenshots/s1.jpg" height="400" width="200"> <img src="screenshots/s2.jpg" height="400" width="200"> <img src="screenshots/s3.jpg" height="400" width="200"> <img src="screenshots/s4.jpg" height="400" width="200">
+
 
 ## Getting Started
 
@@ -44,9 +47,3 @@ Srujan G V aka [@ZephNotFound](https://github.com/ZephNotFound)
 This project is Open Source and anyone can use it.
 Be sure to star this repo and if any issues/bugs/errors do open issues.⭐⭐⭐
 
-## Images
-<img src="https://github.com/ZephNotFound/Beast-Fitness/tree/master/screenshots/s1.jpg" height="400" width="200">
-<img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s2.jpg" height="400" width="200">
-<img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s3.jpg" height="400" width="200">
-<img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s4.jpg" height="400" width="200">
-<img src="https://github.com/ZephNotFound/Beast-Fitness/screenshots/master/s5.jpg" height="400" width="200">
